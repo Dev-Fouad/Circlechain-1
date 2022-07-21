@@ -1,0 +1,119 @@
+.blur {
+  background-color: #010010;
+  box-shadow: 5px 1px 13px 4px rgba(115, 253, 170, 0.48);
+  border-radius: 10px;
+  width: 50rem;
+  height: 259px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 5rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  h4 {
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+   padding-top: 2rem;
+   padding-bottom: 3rem;
+  }
+  .shadow5{
+    // width: 20rem;
+    position: absolute;
+    top: -13rem;
+    right: -10rem;
+  }
+  .text {
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center !important;
+    width: 42rem;
+    margin: auto;
+    gap: 2rem;
+    input {
+      width: 30rem;
+      border: 1px solid #73fdaa;
+      border-radius: 5px;
+      height: 53px;
+    }
+  }
+  .shadow6{
+    // width: 20rem;
+    position: absolute;
+    top: -5rem;
+    left: -16rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .blur {
+    width: 22rem;
+    height: 13rem;
+    margin-top: 2rem;
+    h4 {
+      padding-bottom: 0rem;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .shadow5, .shadow6{
+      display: none;
+    }
+    .text {
+      display: block;
+      align-items: center;
+      width: 22rem;
+      text-align: center;
+      justify-content: center;
+
+      input {
+        width: 17rem;
+        border: 2px solid #73fdaa;
+        border-radius: 5px;
+        height: 3rem;
+        margin: auto;
+      }
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 900px) {
+  .blur {
+    width: 30rem;
+    height: 13rem;
+    margin-top: 2rem;
+    h4 {
+      padding-bottom: 0rem;
+      font-size: 19px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .shadow5, .shadow6{
+      display: none;
+    }
+    .text {
+      display: flex;
+      align-items: center;
+      width: 22rem;
+      text-align: center;
+      justify-content: center;
+
+      input {
+        width: 18rem;
+        border: 2px solid #73fdaa;
+        border-radius: 5px;
+        height: 3rem;
+        margin: auto;
+      }
+    }
+  }
+}

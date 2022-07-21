@@ -1,0 +1,31 @@
+.container1 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  h4 {
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container1 {
+        // overflow: hidden;
+
+        margin: auto;
+
+      h4 {
+        // margin: auto;
+        // width: 20rem;
+        text-align: center;
+      }
+
+      
+    }
+}

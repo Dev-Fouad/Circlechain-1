@@ -1,5 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 .App {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
   text-align: center;
+  background: #010010;
+  color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .App-logo {

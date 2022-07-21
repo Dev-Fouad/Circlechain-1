@@ -1,0 +1,151 @@
+.Onboarding {
+  position: relative;
+  display: flex;
+  height: 25rem;
+  margin-top: 4rem;
+  .Board1 {
+
+    .shadow{
+      width: 20rem;
+      position: absolute;
+      top: -10rem;
+      left: -4rem;
+    }
+    
+    h2 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 50px;
+      text-align: left;
+      line-height: 56.43px;
+      font-weight: 700;
+      margin-top: 3rem;
+    }
+    .Boardp {
+      text-align: left;
+      font-weight: 500;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+      width: 20rem;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-around;
+      width: 27rem;
+      gap: 2rem;
+    }
+  }
+  .Board2 {
+    .bigimage {
+      width: 25rem;
+      z-index: 1;
+
+    }
+    .shadow1{
+      width: 20rem;
+      z-index: 2;
+      position: absolute;
+      top: 6rem;
+      right: 1rem;
+    }
+  }
+}
+@media only screen and (max-width: 480px){
+    .Onboarding {
+        display: block;
+        height: fit-content;
+        margin-bottom: 3rem;
+        gap: 2rem;
+        overflow: hidden;
+
+       
+        .Board1 {
+            max-width: 100%; 
+            align-items: center;
+            justify-content: center;
+
+          h2 {
+            font-size: 30px;
+            line-height: 46.43px;
+            text-align: center;
+          }
+          .Boardp {
+            text-align: center;
+            font-size: 18px;
+            line-height: 24px;
+            width: 20rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 2rem;
+          }
+        
+          .buttons {
+            height: 10rem;
+            width: 21rem;
+            display: block;
+            align-items: center;
+            margin: auto;
+
+          }
+        }
+        .Board2 {
+            max-width: 100%;
+          .bigimage {
+            width: 20rem;
+          }
+          .shadow1{
+           display: none;
+          }
+        }
+      }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+  .Onboarding {
+    display: block;
+    height: fit-content;
+    margin-bottom: 3rem;
+    gap: 2rem;
+    overflow: hidden;
+   
+    .Board1 {
+        max-width: 100%; 
+        align-items: center;
+        justify-content: center;
+
+      h2 {
+        font-size: 40px;
+        line-height: 46.43px;
+        text-align: center;
+      }
+      .Boardp {
+        text-align: center;
+        font-size: 22px;
+        line-height: 24px;
+        width: 22rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+      }
+    
+      .buttons {
+        height: 10rem;
+        width: 25rem;
+        display: flex;
+        align-items: center;
+        margin: auto;
+
+      }
+    }
+    .Board2 {
+        max-width: 100%;
+      .bigimage {
+        width: 30rem;
+      }
+      .shadow1{
+       display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,148 @@
+.hero3 {
+  margin-bottom: 4rem;
+  position: relative;
+  .shadow2 {
+    width: 20rem;
+    position: absolute;
+    top: -13rem;
+    left: 4rem;
+  }
+  h2 {
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+    font-family: "Montserrat", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    width: 45rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 7rem;
+  }
+  .shadow3 {
+    width: 22rem;
+    position: absolute;
+    top: 12rem;
+    left: -2rem;
+  }
+  .heroes {
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #73fdaa;
+    margin-top: 5px;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10rem;
+    .hero1 {
+      img {
+        width: 35rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .hero3 {
+    overflow: hidden;
+    margin-bottom: 4rem;
+    .shadow2 {
+      width: 25rem;
+      top: -18rem;
+      left: 5rem;
+    }
+    h2 {
+      font-size: 16px;
+      line-height: 20px;
+      width: 20rem;
+      margin-top: 6rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .shadow3 {
+      display: none;
+    }
+    .heroes {
+      font-size: 13px;
+      line-height: 13px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-top: 5px;
+    }
+    .hero {
+      display: block;
+
+      align-items: center;
+      margin-top: 10rem;
+      .hero1 {
+        max-width: 100%;
+        align-items: center;
+
+        img {
+          margin-top: -5rem;
+          margin-bottom: 4rem;
+          width: 20rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+  .hero3 {
+    overflow: hidden;
+    margin-bottom: 4rem;
+    .shadow2 {
+      width: 35rem;
+      top: -18rem;
+      left: 5rem;
+    }
+    h2 {
+      font-size: 25px;
+      line-height: 30px;
+      width: 30rem;
+      margin-top: 6rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+    .shadow3 {
+      display: none;
+    }
+    .heroes {
+      font-size: 16px;
+      line-height: 13px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-top: 5px;
+    }
+    .hero {
+      display: block;
+
+      align-items: center;
+      margin-top: 10rem;
+      .hero1 {
+        max-width: 100%;
+        align-items: center;
+
+        img {
+          margin-top: -5rem;
+          margin-bottom: 4rem;
+          width: 30rem;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 901px) and (max-width: 1280px) {
+  .hero3 {
+    overflow: hidden;
+  }
+}

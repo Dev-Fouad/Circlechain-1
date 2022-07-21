@@ -1,0 +1,79 @@
+.Navbar {
+  background-color: #010010;
+  height: 5rem;
+  color: white;
+
+  .link {
+    color: white !important;
+    font-size: 15px;
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #73fdaa;
+    transition: width 0.3s;
+  }
+
+  .link:hover::after {
+    width: 100%;
+  }
+  .logo {
+    width: 12rem;
+  }
+
+  .Social_media {
+    width: 10rem;
+    justify-content: space-around;
+    display: flex;
+    img {
+      width: 1.5rem;
+      cursor: pointer;
+      
+    }
+
+    img:active{
+      fill: #73fdaa;
+      stroke: #73fdaa;
+       // color: #73fdaa;
+     }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Navbar {
+    height: 100%;
+    .Social_media {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      align-items: center;
+    }
+
+    .link:hover::after {
+    }
+  }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+  .Navbar {
+    height: 100%;
+    .Social_media {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2rem;
+      align-items: center;
+
+    }
+
+    .link:hover::after {
+      width: fit-content;
+    }
+  }
+}

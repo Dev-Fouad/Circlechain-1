@@ -1,0 +1,28 @@
+.crypto{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    img{
+        width: 15rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .crypto{
+
+        display: block;
+       
+    }
+}
+
+@media (min-width: 481px) and (max-width: 900px) {
+    .crypto{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+        img{
+            width: 15rem;
+        }
+    }
+}
